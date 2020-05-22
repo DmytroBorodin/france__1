@@ -1,0 +1,664 @@
+html{
+	font-size: 12px;
+}
+*{
+	margin: 0;
+	line-height: 1;
+	box-sizing: border-box;
+}
+a, img, button{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding-left: 0;
+	list-style-type: none;
+}
+body{
+	background-color: #171E38;
+	color: #FFFFFF;
+	font-family: Lato;
+	font-weight: bold;
+}
+.wrap{
+	width: 100%;
+	display: flex;
+}
+.sidebar{
+	width: 6.25%;
+}
+.wrapper{
+	width: 93.75%;
+}
+.container{
+	display: flex;
+}
+.smallest__text{
+	font-size: 1.1rem;
+	line-height: 1.3rem;
+	margin-top: 1rem;
+}
+.small__text {
+	font-size: 1.2rem;
+	line-height: 1.4rem;
+}
+.regular-size__text {
+	font-size: 1.6rem;
+	line-height: 1.9rem;
+}
+.grey__text__06{
+	color: rgba(255, 255, 255, 0.6);
+}
+.middle-size__text{
+	font-size: 2.3rem;
+	line-height: 2.8rem;
+}
+.big-size__text{
+	font-size: 40px;
+	line-height: 48px;
+}
+.block__bg{
+	background-color: #212840;
+}
+.right-align__text{
+	text-align: right;
+}
+.green__text{
+	color: #2ED535;;
+}
+.red__text{
+	color: #FF081B;
+}
+/* Header */
+
+header{
+	height: 107px;
+}
+header .wrap{
+	height: 100%;
+	align-items: center;
+}
+.left-side {
+	display: flex;
+	align-items: center;
+	width: 51.46%;
+}
+.burger {
+	margin: 0 6.34% 0 3.78%;
+	width: 4.05%;
+	height: 34.87px;
+	cursor: pointer;
+}
+.burger__bar {
+	width: 100%;
+	height: 3px;
+	display: flex;
+}
+.burger__circle {
+	width: 6px;
+	height: 4px;
+	border-radius: 2px;
+	background-color: #fff;
+	margin-right: 4px;
+}
+.burger__line {
+	width: calc(100% - 10px);
+	height: 4px;
+	border-radius: 2px;
+	background-color: #fff;
+}
+.burger__bar.central{
+	margin: 11.43px 0;
+}
+.logo {
+	font-size: 2.5rem;
+	line-height: 3rem;
+	font-family: lato;
+	font-weight: bold;
+}
+.right-side {
+	display: flex;
+	align-items: center;
+	width: 48.54%;
+}
+.menu__block {
+	width: 53.1%;
+	margin-right: 8.33%;
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+}
+.menu__link {
+	color: #637280;
+	font-size: 1.6rem;
+	font-weight: normal;
+	line-height: 1.9rem;
+	transition: all 0.3s ease;	
+}
+.menu__link:hover {
+	color: #fff;
+}
+.active__link{
+	color: #fff;
+}
+.search__block {
+	display: flex;
+	width: 22.17%;
+	border-bottom: 1px solid #707070;
+	padding-bottom: 0.5rem;
+	justify-content: space-between;
+}
+.icon-search {
+	font-size: 1.44rem;
+	margin-right: 5px;
+}
+.search__input {
+	width: 89%;
+	border: none;
+	background: transparent;
+	font-size: 1.2rem;
+	font-weight: normal;
+	color: #fff;
+}
+.search__input:focus{
+	outline: none;
+}
+/* Header */
+
+
+/* Sidebar */
+.sidebar {
+	width: 6.25%;
+	background-color: #212840;
+	padding-top: 6.9rem;
+}
+.button__block {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 6rem;
+	font-size: 2rem;
+	transition: all 0.3s ease;
+	border-radius: 0px 5px 5px 0px;
+}
+.button__block__active {
+	background-color: #0077FF;
+}
+.button__block:hover {
+	background-color: #0077FF;
+}
+.icon-population-1 {}
+.icon-plug {}
+.icon-chartIcon {}
+.icon-handsShake {}
+.icon-co2 {}
+.main {
+	width: 93.75%;
+}
+
+/* Sidebar */
+
+/* Header section */
+.header__section {
+	display: flex;
+}
+.header__img {
+	width: 33.2%;
+}
+.header__info__block {
+	width: 66.8%;
+	padding-left: 2%;
+	position: relative;
+}
+.header__title__block {
+	display: flex;
+	margin-top: 3.6rem;
+}
+.header__title {
+	font-size: 3.5rem;
+	line-height: 4.1rem;
+	font-family: Roboto;
+	font-weight: bold;
+}
+.flag {
+	align-self: center;
+	width: 4.5rem;
+	margin-left: 1.5rem;
+}
+.subtitle {
+	font-size: 2rem;
+	line-height: 2.3rem;
+	color: rgba(255, 255, 255, 0.5);
+	font-family: Roboto;
+	font-weight: normal;
+}
+.header__map__block {
+	width: 24.09%;
+}
+.map__img {
+	margin-top: 4.14rem;
+	width: 86.2%;
+	margin-left: 13.8%;
+	height: auto;
+}
+.header__text__block {
+	width: 68.69%;
+	margin-left: 7.22%;
+}
+.main__info {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.6rem;
+	margin-bottom: 3.8rem;
+}
+.main__info p { 
+	line-height: 1.9rem;
+}
+.header__text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.6rem;
+	width: 88.7%;
+}
+.header__text p{
+	line-height: 2rem;
+}
+.header__time__block {
+	position: absolute;
+	top: 4.5rem;
+	right: 3.9rem;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3rem;
+	text-align: right;
+}
+.time__info {
+	line-height: 3.7rem;
+}
+.temperature__info {
+	line-height: 3.7rem;
+}
+/* Header section */
+.inner-main{
+	width: 85.19%;
+	padding: 0 2.2rem 0 2.7rem;
+}
+.right-sidebar{
+	width: 14.3%;
+}
+/* right sidebar */
+.twitter{
+	margin-top: 4.45rem;
+	width: 100%;
+}
+.right-sidebar__title__block {
+	display: flex;
+	align-items: center;
+}
+.right-sidebar__title__block img{
+	width: 1.9rem;
+	margin-right: 1.45rem;
+}
+.right-sidebar__title {
+	font-style: normal;
+	color: #F2F2F2;
+}
+.posts__block {
+	padding: 0.9rem 0.6rem 0 0.7rem;
+	background-color: #212840;
+	padding-bottom: 3rem;
+}
+.post__block {
+	background-color: #171E38;
+	padding: 1.3rem 0.9rem 0 0.3rem;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 3rem;
+}
+.post__block:last-child {
+	margin-bottom: 0;
+}
+.avatar__block {
+	width: 4.16rem;
+	padding: 0 0.5rem;
+}
+.avatar__block img{
+	width: 100%;
+	border-radius: 50%;
+}
+.post__info {
+	width: 76%;
+}
+.user__name {
+	font-style: normal;
+	font-size: 1.6rem;
+	line-height: 1.9rem;
+}
+.post__text {
+	margin-top: 1.4rem;
+	margin-bottom: 0.4rem;
+}
+.when-added{
+	text-align: right;
+	margin-bottom: 2.7rem;
+}
+.google{
+	margin-top: 8.05rem;
+	width: 100%;
+}
+.google__post__info{
+	position: relative;
+	margin-left: 0.5rem;
+}
+.google__pos__text{
+	position: absolute;
+	bottom: 4.2rem;
+	left: -3.66rem;
+}
+.google__avatar__block img{
+	border-radius: 0;
+}
+.google__post__text{
+	margin-top: 0;
+}
+.when-added__google{
+	margin-top: 3.3rem;
+}
+/* right sidebar */
+
+/* Inner-main sections */
+
+/* Demography */
+.demography {
+	margin-top: 4.3rem;
+}
+.section__info__block {
+	position: relative;
+	width: 32.06%;
+	margin-right: 2.2rem;
+	padding: 2rem 3.2rem;
+}
+.info-icon__block {
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3rem;
+	margin: 0.3rem 0 1.4rem 0;
+	background-color: rgba(255, 255, 255, 0.13);
+
+}
+.inner__info__block {
+	display: flex;
+	position: relative;
+	width: 17.9rem;
+	margin: 1.2rem 0 4.3rem;
+}
+.demography .section__info__block .big-size__text {
+	width: 12.3rem;
+}
+
+.demography .inner__info__block .percentages {
+	position: absolute;
+	right: 0;
+	bottom: 0.65rem;
+}
+.section__chart__block {
+	width: calc(100% - 32.06% - 2.2rem);
+	padding: 1.7rem 3.2rem 2rem;
+	position: relative;
+
+}
+.chart-header__block {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 2.5rem;
+}
+.chart-header__block .left-side {
+	display: flex;
+	align-items: center;
+}
+.chart-header__block .left-side .info-icon__block {
+	width: 3rem;
+	height: 3rem;
+	font-size: 1.5rem;
+	margin: 0 1.5rem 0 0;
+}
+.chart-header__block .right-side {
+	display: flex;
+	justify-content: flex-end;
+}
+.chart__div{
+	height: 192.09px;
+	margin-bottom: 3.1rem;
+}
+#demography__chart{
+	width: 100%;
+}
+.bottom__text{
+	position: absolute;
+	bottom: 2rem;
+}
+
+/* Electricity */
+.electricity{
+	margin-top: 6.95rem;
+}
+.electricity .inner__info__block{
+	flex-direction: column;
+}
+.electricity .inner__info__block .percentages{
+	position: static;
+	margin-top: 1.8rem;
+}
+.electricity .bottom__chart__block {
+	position: absolute;
+	width: calc(100% - 6.4rem);
+	bottom: 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+.electricity .bottom__chart__block .small__text{
+	position: static;
+}
+.chart-legend__block{
+	display: flex;
+}
+.legend__block {
+	display: flex;
+}
+.legend__block span {
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	margin-right: 0.6rem;
+}
+.urban__legend {
+	margin-right: 3.8rem;
+}
+.urban__legend span {
+	background-color: #2772FF;
+}
+.rural__legend span {
+	background-color: #76EFFF;
+}
+
+/* El-consumption */
+.el-consumption{
+	margin-top: 5.94rem;
+}
+.el-consumption .inner__info__block {
+	width: 100%;
+	align-items: baseline;
+	margin: 2.2rem 0 1.8rem;
+}
+.el-consumption .inner__info__block .regular-size__text{
+	margin-left: 1rem;
+}
+.el-consumption .percentages{
+	display: block;
+	margin-bottom: 3rem;
+}
+
+/* Gas-emmision */
+.gaz-emmisions .inner__info__block{
+	flex-direction: column;
+	width: 100%;
+}
+.gaz-emmisions .inner__info__block .big-size__text{
+	width: 100%;
+}
+.gaz-emmisions .inner__info__block .percentages{
+	position: static;
+	margin-top: 1.8rem;
+}
+
+/* El-production */
+.el-production {
+	margin-top: 6.2rem;
+}
+.el-production .chart-header__block{
+	margin-bottom: 3.8rem;
+}
+.el-production .section__chart__block .container {
+	justify-content: space-between;
+	height: 17.1rem;
+}
+.el-production .section__chart__block .container>div{
+	height: 100%;
+}
+.gaz__block {
+	width: 32.48%;
+	background-color: #2772FF;
+	padding: 0.6rem 1rem;
+}
+.hydroelectric__block {
+	width: 32.48%;
+	background-color: #F5D66B;
+	padding: 0.6rem 1rem;
+}
+.alternative__block {
+	width: 32.48%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0;
+}
+.solar__block {
+	padding: 0.6rem 1rem;
+	background-color: #C28EFF;
+	height: 68.42%;
+}
+.oil__block {
+	padding: 0.6rem 1rem;
+	background-color: #37CC93;
+	height: 27.49%;
+}
+
+/* Co2-emmision */
+.co2-emmision {
+	margin-top: 5.94rem;
+}
+.co2-emmision__block{
+	width: 66.24%;
+}
+
+/* El-source */
+.el-source {
+	margin-top: 4rem;
+}
+.el-source .section__chart__block {
+	width: 100%;
+}
+
+/* Methan */
+.circle-chart__section .section__chart__block .circle-chart__continer {
+	height: 20rem;
+}
+.section__chart__block {}
+.chart-header__block {}
+.main-legend__block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 51.79%;
+}
+.main-legend__block .middle-size__text {
+	width: 11.2rem;
+}
+.main-legend {}
+.legend__item {
+	display: flex;
+	align-items: center;
+}
+.legend__item span {
+	width:3rem;
+	height: 3rem;
+	border-radius: 50%;
+	margin-right: 1.6rem;
+}
+#item1 {
+	margin-bottom: 2rem;
+}
+#item1 span{
+	background-color: #F5D66B;
+}
+#item2 span{
+	background-color: #FC7730;
+}
+.main-chart___block {
+	width: 48.21%;
+	position: relative;
+}
+.inner-chart__block {
+	width: 20rem;
+	height: 20rem;
+}
+.stat__block{
+	display: flex;
+	position: absolute;
+	align-items: center;
+	color: rgba(255, 255, 255, 0.6);
+}
+.stat__block span{
+	display: block;
+	height: 1px;
+	background-color: rgba(255, 255, 255, 0.6);
+	width: 4.6rem;
+}
+.stat__block .smallest__text{
+	margin-top: 0;
+}
+#stat1 span{
+	margin-left: 0.2rem;
+}
+#stat2 span{
+	margin-right: 0.2rem;
+}
+#stat1 {
+	top: 82.5%;
+	left: -4.1rem;
+}
+#stat2 {
+	top: 42.5%;
+	left: 20.05rem;
+}
+
+
+
+
+@media screen and (max-width: 1440px){
+	html{
+		font-size: 10px;
+	}
+}
