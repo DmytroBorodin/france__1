@@ -414,9 +414,12 @@ header .wrap{
 }
 .section__chart__block {
 	width: calc(100% - 32.06% - 2.2rem);
-	padding: 1.7rem 3.2rem 2rem;
+	padding: 1.2rem 3.2rem 2rem;
 	position: relative;
 
+}
+.circle-chart__section .section__chart__block {
+	padding-top: 2rem;
 }
 .chart-header__block {
 	display: flex;
@@ -584,9 +587,8 @@ header .wrap{
 /* Methan */
 .circle-chart__section .section__chart__block .circle-chart__continer {
 	height: 20rem;
+	align-items: center;
 }
-.section__chart__block {}
-.chart-header__block {}
 .main-legend__block {
 	display: flex;
 	flex-direction: column;
@@ -596,7 +598,6 @@ header .wrap{
 .main-legend__block .middle-size__text {
 	width: 11.2rem;
 }
-.main-legend {}
 .legend__item {
 	display: flex;
 	align-items: center;
@@ -653,6 +654,116 @@ header .wrap{
 	top: 42.5%;
 	left: 20.05rem;
 }
+
+
+/* Double circle chart */ 
+.double-circle-chart__section {
+	margin-top: 5rem;
+}
+.double-circle-chart__section .section__chart__block{
+	width: 50%; 
+}
+.double-circle-chart__section .main-legend__block {
+	width: 42.78%;
+}
+.double-circle-chart__section .section__chart__block .circle-chart__continer {
+	justify-content: flex-start;
+	margin-bottom: 3.4rem;
+}
+.double-circle-chart__section #item1 span{
+	background-color: #A819E8;
+}
+.double-circle-chart__section #item2 span{
+	background-color: #F4D5FF;
+}
+#ch1 {
+	margin-right: 2.1rem;
+}
+
+
+/* GDP and GNI */
+.GDP-and-GNI {
+	margin-top: 6.15rem;
+}
+.section-wrapper {
+	width: 32.06%;
+	margin-right: 2.2rem;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.GDP-and-GNI .section__info__block {
+	width: 100%;
+}
+#sect1 {
+	margin-bottom: 2rem;
+}
+.GDP-and-GNI .inner__info__block {
+	display: flex;
+	position: relative;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	margin: 1.6rem 0 1.2rem;
+}
+.GDP-and-GNI .section__info__block .big-size__text {
+	width: auto;
+	font-size: 3rem;
+	line-height: 3.6rem;
+}
+.GDP-and-GNI .inner__info__block .percentages {
+	position: static;
+	margin-bottom: 0;
+}
+.GDP-and-GNI .middle-size__text {
+	margin-bottom: 2rem;
+}
+.GDP-and-GNI .chart__div {
+	height: 28.1rem;
+}
+
+/* Business */
+.business {
+	margin-top: 8.05rem;
+}
+.business .section__info__block {
+	padding: 4rem 3.2rem 3.2rem;
+}
+.business .section__info__block:last-child {
+	margin-right: 0;
+}
+.section__info__block .container {
+	justify-content: space-between;
+}
+.business .inner__info__block {
+	width: auto;
+	margin: 0;
+}
+.big-size__text .percentages {
+	margin-left: 1.2rem;
+}
+.business .info-icon__block {
+	width: 7rem;
+	height: 7rem;
+}
+.business h3.middle-size__text {
+	margin-top: 1.3rem;
+}
+.bottom-info__block {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2.9rem;
+}
+/* Footer */
+
+#footer {
+	width: 100%;
+	height: 41.84rem;
+}
+
+
+
+
 
 
 
