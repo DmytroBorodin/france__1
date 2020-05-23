@@ -414,9 +414,12 @@ header .wrap{
 }
 .section__chart__block {
 	width: calc(100% - 32.06% - 2.2rem);
-	padding: 1.7rem 3.2rem 2rem;
+	padding: 1.2rem 3.2rem 2rem;
 	position: relative;
 
+}
+.circle-chart__section .section__chart__block {
+	padding-top: 2rem;
 }
 .chart-header__block {
 	display: flex;
@@ -719,8 +722,44 @@ header .wrap{
 	height: 28.1rem;
 }
 
+/* Business */
+.business {
+	margin-top: 8.05rem;
+}
+.business .section__info__block {
+	padding: 4rem 3.2rem 3.2rem;
+}
+.business .section__info__block:last-child {
+	margin-right: 0;
+}
+.section__info__block .container {
+	justify-content: space-between;
+}
+.business .inner__info__block {
+	width: auto;
+	margin: 0;
+}
+.big-size__text .percentages {
+	margin-left: 1.2rem;
+}
+.business .info-icon__block {
+	width: 7rem;
+	height: 7rem;
+}
+.business h3.middle-size__text {
+	margin-top: 1.3rem;
+}
+.bottom-info__block {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2.9rem;
+}
+/* Footer */
 
-
+#footer {
+	width: 100%;
+	height: 41.84rem;
+}
 
 
 
