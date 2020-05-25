@@ -1,7 +1,7 @@
 var ctx = document.getElementById('GDP-and-GNI__chart').getContext("2d");
     var tenthGradient = ctx.createLinearGradient(0, 0, 0, 400);
     var eleventhGradient = ctx.createLinearGradient(0, 0, 0, 400);
-tenthGradient.addColorStop(0, '#76EFFF');
+tenthGradient.addColorStop(0, '#37CC93');
 eleventhGradient.addColorStop(0, '#2772FF');
 var gpdAndGniChart = new Chart(ctx, {
     type: 'bar',
