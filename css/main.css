@@ -39,10 +39,12 @@ body{
 	font-size: 1.1rem;
 	line-height: 1.3rem;
 	margin-top: 1rem;
+	font-weight: normal;
 }
 .small__text {
 	font-size: 1.2rem;
 	line-height: 1.4rem;
+	font-weight: normal;
 }
 .regular-size__text {
 	font-size: 1.6rem;
@@ -298,6 +300,7 @@ header .sidebar {
 .right-sidebar__title__block {
 	display: flex;
 	align-items: center;
+	margin-bottom: 0.85rem;
 }
 .right-sidebar__title__block img{
 	width: 1.9rem;
@@ -376,6 +379,9 @@ header .sidebar {
 .demography {
 	margin-top: 4.3rem;
 }
+.section__title {
+	margin-bottom: 0.85rem;
+}
 .section__info__block {
 	position: relative;
 	width: 32.06%;
@@ -452,7 +458,7 @@ header .sidebar {
 
 /* Electricity */
 .electricity{
-	margin-top: 6.95rem;
+	margin-top: 7.95rem;
 }
 .electricity .inner__info__block{
 	flex-direction: column;
@@ -495,7 +501,7 @@ header .sidebar {
 
 /* El-consumption */
 .el-consumption{
-	margin-top: 5.94rem;
+	margin-top: 5rem;
 }
 .el-consumption .inner__info__block {
 	width: 100%;
@@ -511,6 +517,9 @@ header .sidebar {
 }
 
 /* Gas-emmision */
+.gaz-emmisions {
+	margin-top: 7.95rem;
+}
 .gaz-emmisions .inner__info__block{
 	flex-direction: column;
 	width: 100%;
@@ -525,7 +534,7 @@ header .sidebar {
 
 /* El-production */
 .el-production {
-	margin-top: 6.2rem;
+	margin-top: 5rem;
 }
 .el-production .chart-header__block{
 	margin-bottom: 3.8rem;
@@ -567,7 +576,7 @@ header .sidebar {
 
 /* Co2-emmision */
 .co2-emmision {
-	margin-top: 5.94rem;
+	margin-top: 5rem;
 }
 .co2-emmision__block{
 	width: 66.24%;
@@ -579,6 +588,9 @@ header .sidebar {
 }
 .el-source .section__chart__block {
 	width: 100%;
+}
+.co2-emmision__chart {
+	margin-top: 2rem;
 }
 
 /* Methan */
@@ -683,7 +695,7 @@ header .sidebar {
 
 /* GDP and GNI */
 .GDP-and-GNI {
-	margin-top: 6.15rem;
+	margin-top: 7.95em;
 }
 .section-wrapper {
 	width: 32.06%;
@@ -724,7 +736,7 @@ header .sidebar {
 
 /* Business */
 .business {
-	margin-top: 8.05rem;
+	margin-top: 7.95rem;
 }
 .business .section__info__block {
 	padding: 4rem 3.2rem 3.2rem;
