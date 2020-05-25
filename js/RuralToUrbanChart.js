@@ -25,3 +25,13 @@ var ruralToUrbanChart = new Chart(ctx, {
         cutoutPercentage: 37.5,
     }
 });
+
+
+let stat3 = ruralToUrbanChart.config.data.datasets[0].data[0];
+let stat4 = ruralToUrbanChart.config.data.datasets[0].data[1]
+
+let legendValue3 = document.getElementById('stat-item-3');
+console.log(legendValue3);
+legendValue3.innerHTML = `${stat3}%`;
+let legendValue4 = document.getElementById('stat-item-4');
+legendValue4.innerHTML = `${stat4}%`;

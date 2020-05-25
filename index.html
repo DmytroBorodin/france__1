@@ -68,9 +68,27 @@
 						</div>
 					</div>
 				</div>
+				<div class="sidebar">
+					<section class="buttons">
+						<div class="button__block">
+							<span class="icon-population-1"></span>
+						</div>
+						<div class="button__block">
+							<span class="icon-plug"></span>
+						</div>
+						<div class="button__block">
+							<span class="icon-chartIcon"></span>
+						</div>
+						<div class="button__block">
+							<span class="icon-handsShake"></span>
+						</div>
+						<div class="button__block">
+							<span class="icon-co2"></span>
+						</div>
+					</section>
+				</div>
 			</header>
 			<!-- Header ends -->
-
 			<div class="wrap">
 				<!-- Left sidebar starts -->
 				<div class="sidebar">
@@ -93,12 +111,10 @@
 					</section>
 				</div>
 				<!-- Left sidebar ends -->
-
 				<!-- Main block starts -->
 				<main class='main'>
-
 					<!-- Header section starts -->
-					<section class="header__section">
+					<section class="header__section block__bg">
 						<img src="img/image 2.jpg" alt="" class="header__img">
 						<div class="header__info__block">
 							<div class="header__title__block">
@@ -133,9 +149,7 @@
 						</div>
 					</section>
 					<!-- Header section ends -->
-
 					<div class="wrap inner-wrap">
-
 						<!-- InnerMain block starts -->
 						<main class='inner-main'>
 							<!-- Demography starts -->
@@ -143,7 +157,7 @@
 								<h3 class="section__title middle-size__text">Demography</h3>
 								<div class="container">
 									<div class="section__info__block block__bg">
-										<p class="small__text right-align__text">2019</p>
+										<p class="small__text grey__text__06 right-align__text">2019</p>
 										<div class="info-icon__block">
 											<span class="icon-population-1"></span>
 										</div>
@@ -183,10 +197,9 @@
 								</p>
 							</section>
 							<!-- Demography ends -->
-
 							<!-- Double-sircle-chart starts -->
 							<section class="electricity el-production co2-emmision circle-chart__section double-circle-chart__section">
-								<div class="container">
+								<div class="container column__container">
 									<div class="section__chart__block block__bg" id="ch1">
 										<div class="chart-header__block">
 											<div class="left-side">
@@ -199,19 +212,19 @@
 										</div>
 										<div class="container circle-chart__continer">
 											<div class="main-legend__block">
-												<p class="middle-size__text">
+												<p class="middle-size__text grey__text__06">
 													Rural To Urban
 												</p>
 												<div class="main-legend">
 													<div class="legend__item" id='item1'>
 														<span></span>
-														<p class="middle-size__text">
+														<p class="middle-size__text grey__text__06">
 															Female
 														</p>
 													</div>
 													<div class="legend__item" id='item2'>
 														<span></span>
-														<p class="middle-size__text">
+														<p class="middle-size__text grey__text__06">
 															Urban
 														</p>
 													</div>
@@ -219,16 +232,16 @@
 											</div>
 											<div class="main-chart___block">
 												<div class="stat__block" id='stat1'>
-													<p class="smallest__text">25%</p>
+													<p class="smallest__text" id='stat-item-4'>25%</p>
 													<span></span>
 												</div>
 												<div class="stat__block" id='stat2'>
 													<span></span>
-													<p class="smallest__text">75%</p>
+													<p class="smallest__text" id='stat-item-3'>75%</p>
 												</div>
 												<div class="inner-chart__block">
 													<canvas id='rural-to-urban__chart'></canvas>
-												</div>	
+												</div>
 											</div>
 										</div>
 										<p class="small__text bottom__text grey__text__06">*Source: World Bank</p>
@@ -245,19 +258,19 @@
 										</div>
 										<div class="container circle-chart__continer">
 											<div class="main-legend__block">
-												<p class="middle-size__text">
+												<p class="middle-size__text grey__text__06">
 													Male To Female
 												</p>
 												<div class="main-legend">
-													<div class="legend__item" id='item1'>
+													<div class="legend__item" id='item3'>
 														<span></span>
-														<p class="middle-size__text">
+														<p class="middle-size__text grey__text__06">
 															Female
 														</p>
 													</div>
-													<div class="legend__item" id='item2'>
+													<div class="legend__item" id='item4'>
 														<span></span>
-														<p class="middle-size__text">
+														<p class="middle-size__text grey__text__06">
 															Male
 														</p>
 													</div>
@@ -265,33 +278,33 @@
 											</div>
 											<div class="main-chart___block">
 												<div class="stat__block" id='stat1'>
-													<p class="smallest__text">25%</p>
+													<p class="smallest__text" id='stat-item-2'>25%</p>
 													<span></span>
 												</div>
 												<div class="stat__block" id='stat2'>
 													<span></span>
-													<p class="smallest__text">75%</p>
+													<p class="smallest__text" id='stat-item-1'>75%</p>
 												</div>
 												<div class="inner-chart__block">
 													<canvas id='male-to-female__chart'></canvas>
-												</div>	
+												</div>
 											</div>
 										</div>
 										<p class="small__text bottom__text grey__text__06">*Source: World Bank</p>
 									</div>
 								</div>
 								<p class="smallest__text grey__text__06">
-									Electricity Production from IEA Statistics © OECD/IEA 2014 ( iea.org/stats/index.asp ), subject to iea.org/t&c/termsandconditions
+									Rural to Urban : World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, 2018 Revision. Male to Female: World Bank staff estimates based on age/sex distributions of United Nations Population Division's World Population Prospects: 2019 Revision.
+
 								</p>
 							</section>
 							<!-- Double-sircle-chart ends -->
-
 							<!-- Electricity starts -->
 							<section class="electricity">
 								<h3 class="section__title middle-size__text">Electricity and Energy</h3>
 								<div class="container">
 									<div class="section__info__block block__bg">
-										<p class="small__text right-align__text">2019</p>
+										<p class="small__text grey__text__06 right-align__text">2019</p>
 										<div class="info-icon__block">
 											<span class="icon-plug"></span>
 										</div>
@@ -343,12 +356,11 @@
 								</p>
 							</section>
 							<!-- Electricity ends -->
-
 							<!-- ElProduction starts -->
 							<section class="electricity el-production ">
 								<div class="container">
 									<div class="section__info__block block__bg">
-										<p class="small__text right-align__text">2019</p>
+										<p class="small__text grey__text__06 right-align__text">2019</p>
 										<div class="info-icon__block">
 											<span class="icon-plug"></span>
 										</div>
@@ -400,7 +412,6 @@
 								</div>
 							</section>
 							<!-- ElProduction ends -->
-
 							<!-- ElSource starts -->
 							<section class="el-consumption el-source">
 								<div class="container">
@@ -431,12 +442,11 @@
 								</p>
 							</section>
 							<!-- ElSource ends -->
-
 							<!-- ElConsumption starts -->
 							<section class="el-consumption">
 								<div class="container">
 									<div class="section__info__block block__bg">
-										<p class="small__text right-align__text">2019</p>
+										<p class="small__text grey__text__06 right-align__text">2019</p>
 										<div class="info-icon__block">
 											<span class="icon-plug"></span>
 										</div>
@@ -477,14 +487,13 @@
 								</p>
 							</section>
 							<!-- ElConsumption ends -->
-
 							<!-- GDP-and-GNI starts -->
 							<section class="demography GDP-and-GNI">
 								<h3 class="section__title middle-size__text">GDP and GNI</h3>
 								<div class="container">
 									<div class="section-wrapper">
 										<div class="section__info__block block__bg" id="sect1">
-											<p class="small__text right-align__text">2019</p>
+											<p class="small__text grey__text__06 right-align__text">2019</p>
 											<img src="img/chart1.png" alt="" class="chart__img">
 											<div class="inner__info__block">
 												<p class="big-size__text">
@@ -496,7 +505,7 @@
 											<p class="small__text grey__text__06">*Source: World Bank</p>
 										</div>
 										<div class="section__info__block block__bg">
-											<p class="small__text right-align__text">2019</p>
+											<p class="small__text grey__text__06 right-align__text">2019</p>
 											<img src="img/chart1.png" alt="" class="chart__img">
 											<div class="inner__info__block">
 												<p class="big-size__text">
@@ -535,9 +544,8 @@
 								</p>
 							</section>
 							<!-- GDP-and-GNI ends -->
-
 							<!-- Business starts -->
-							<section class="electricity el-production business">	
+							<section class="electricity el-production business">
 								<h3 class="section__title middle-size__text">Credit Rating and Business Ranking</h3>
 								<div class="container">
 									<div class="section__info__block block__bg">
@@ -556,7 +564,7 @@
 										<div class="bottom-info__block">
 											<p class="small__text grey__text__06">*Source: World Bank</p>
 											<p class="small__text grey__text__06 right-align__text">2019</p>
-										</div>										
+										</div>
 									</div>
 									<div class="section__info__block block__bg">
 										<div class="container">
@@ -574,7 +582,7 @@
 										<div class="bottom-info__block">
 											<p class="small__text grey__text__06">*Source: World Bank</p>
 											<p class="small__text grey__text__06 right-align__text">2019</p>
-										</div>										
+										</div>
 									</div>
 									<div class="section__info__block block__bg">
 										<div class="container">
@@ -592,22 +600,24 @@
 										<div class="bottom-info__block">
 											<p class="small__text grey__text__06">*Source: World Bank</p>
 											<p class="small__text grey__text__06 right-align__text">2019</p>
-										</div>										
+										</div>
 									</div>
 								</div>
+								<p class="smallest__text grey__text__06">
+									Electricity Production from IEA Statistics © OECD/IEA 2014 ( iea.org/stats/index.asp ), subject to iea.org/t&c/termsandconditions
+								</p>
 							</section>
 							<!-- Business ends -->
-
 							<!-- GazEmmisions starts -->
 							<section class="demography gaz-emmisions">
 								<h3 class="section__title middle-size__text">Greenhouse Gaz Emissions</h3>
 								<div class="container">
 									<div class="section__info__block block__bg">
-										<p class="small__text right-align__text">2019</p>
+										<p class="small__text grey__text__06 right-align__text">2019</p>
 										<div class="info-icon__block">
 											
 										</div>
-										<h3 class="middle-size__text grey__text__06">Population</h3>
+										<h3 class="middle-size__text grey__text__06">Total Greenhouse Emissions</h3>
 										<div class="inner__info__block">
 											<p class="big-size__text">
 												37,543 ktCO2e
@@ -643,12 +653,11 @@
 								</p>
 							</section>
 							<!-- GazEmmisions ends -->
-
 							<!-- Co2Emmision starts -->
 							<section class="electricity el-production co2-emmision">
 								<div class="container">
 									<div class="section__info__block block__bg">
-										<p class="small__text right-align__text">2019</p>
+										<p class="small__text grey__text__06 right-align__text">2019</p>
 										<div class="info-icon__block">
 											<span class="icon-plug"></span>
 										</div>
@@ -697,7 +706,6 @@
 								</div>
 							</section>
 							<!-- Co2Emmision ends -->
-
 							<!-- Co2EmmisionChart starts -->
 							<section class="el-consumption el-source co2-emmision__chart">
 								<div class="container">
@@ -728,12 +736,11 @@
 								</p>
 							</section>
 							<!-- Co2EmmisionChart ends -->
-
 							<!-- Methan starts -->
 							<section class="electricity el-production co2-emmision circle-chart__section">
 								<div class="container">
 									<div class="section__info__block block__bg">
-										<p class="small__text right-align__text">2019</p>
+										<p class="small__text grey__text__06 right-align__text">2019</p>
 										<div class="info-icon__block">
 											
 										</div>
@@ -758,19 +765,19 @@
 										</div>
 										<div class="container circle-chart__continer">
 											<div class="main-legend__block">
-												<p class="middle-size__text">
+												<p class="middle-size__text grey__text__06">
 													Methane Emissions
 												</p>
 												<div class="main-legend">
 													<div class="legend__item" id='item1'>
 														<span></span>
-														<p class="middle-size__text">
+														<p class="middle-size__text grey__text__06">
 															Industrial
 														</p>
 													</div>
 													<div class="legend__item" id='item2'>
 														<span></span>
-														<p class="middle-size__text">
+														<p class="middle-size__text grey__text__06">
 															Agricultural
 														</p>
 													</div>
@@ -778,16 +785,16 @@
 											</div>
 											<div class="main-chart___block">
 												<div class="stat__block" id='stat1'>
-													<p class="smallest__text">25%</p>
+													<p class="smallest__text" id='stat-item-6'>25%</p>
 													<span></span>
 												</div>
 												<div class="stat__block" id='stat2'>
 													<span></span>
-													<p class="smallest__text">75%</p>
+													<p class="smallest__text" id='stat-item-5'>75%</p>
 												</div>
 												<div class="inner-chart__block">
 													<canvas id='methan__chart'></canvas>
-												</div>	
+												</div>
 											</div>
 										</div>
 										<p class="small__text bottom__text grey__text__06">*Source: World Bank</p>
@@ -800,7 +807,6 @@
 							<!-- Methan ends -->
 						</main>
 						<!-- InnerMain block ends -->
-
 						<!-- Right sidebar starts -->
 						<div class="right-sidebar">
 							<div class=" twitter">
@@ -955,9 +961,156 @@
 				</main>
 				<!-- Main block ends -->
 			</div>
-
-			<footer id='footer'></footer>
-
+			<footer id='footer'>
+				<div class="right-sidebar">
+					<div class=" twitter">
+						<div class="right-sidebar__title__block">
+							<img src="img/twitter.png" alt="">
+							<h3 class="right-sidebar__title middle-size__text">Twitter</h3>
+						</div>
+						<div class="posts__block">
+							<div class="post__block">
+								<div class="avatar__block">
+									<img src="img/Intersect.png" alt="">
+								</div>
+								<div class="post__info">
+									<p class="user__name">Gyasi Ottley</p>
+									<p class="small__text grey__text__06">@MrGyasi Ottley</p>
+									<p class="post__text small__text">
+										Lorem ipsum dolor sit amet, consetetur
+										sadipscing elitr, sed diam nonumy eirmod
+										tempor invidunt ut labore et dolore magna
+									</p>
+									<p class="when-added small__text grey__text__06"> 2h</p>
+								</div>
+							</div>
+							<div class="post__block">
+								<div class="avatar__block">
+									<img src="img/Intersect.png" alt="">
+								</div>
+								<div class="post__info">
+									<p class="user__name">Gyasi Ottley</p>
+									<p class="small__text grey__text__06">@MrGyasi Ottley</p>
+									<p class="post__text small__text">
+										Lorem ipsum dolor sit amet, consetetur
+										sadipscing elitr, sed diam nonumy eirmod
+										tempor invidunt ut labore et dolore magna
+									</p>
+									<p class="when-added small__text grey__text__06"> 2h</p>
+								</div>
+							</div>
+							<div class="post__block">
+								<div class="avatar__block">
+									<img src="img/Intersect.png" alt="">
+								</div>
+								<div class="post__info">
+									<p class="user__name">Gyasi Ottley</p>
+									<p class="small__text grey__text__06">@MrGyasi Ottley</p>
+									<p class="post__text small__text">
+										Lorem ipsum dolor sit amet, consetetur
+										sadipscing elitr, sed diam nonumy eirmod
+										tempor invidunt ut labore et dolore magna
+									</p>
+									<p class="when-added small__text grey__text__06"> 2h</p>
+								</div>
+							</div>
+							<div class="post__block">
+								<div class="avatar__block">
+									<img src="img/Intersect.png" alt="">
+								</div>
+								<div class="post__info">
+									<p class="user__name">Gyasi Ottley</p>
+									<p class="small__text grey__text__06">@MrGyasi Ottley</p>
+									<p class="post__text small__text">
+										Lorem ipsum dolor sit amet, consetetur
+										sadipscing elitr, sed diam nonumy eirmod
+										tempor invidunt ut labore et dolore magna
+									</p>
+									<p class="when-added small__text grey__text__06"> 2h</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class=" google">
+						<div class="right-sidebar__title__block">
+							<img src="img/google.png" alt="">
+							<h3 class="right-sidebar__title middle-size__text">Google</h3>
+						</div>
+						<div class="posts__block">
+							<div class="post__block">
+								<div class="avatar__block google__avatar__block">
+									<img src="img/area.png" alt="">
+								</div>
+								<div class="post__info google__post__info">
+									<p class="post__text  google__post__text small__text">
+										Lorem ipsum dolor sit amet, consetetur
+										sadipscing elitr, sed diam nonumy eirmod
+										tempor invidunt ut labore et dolore magna
+									</p>
+									<p class='small__text grey__text__06 google__pos__text'>The Guardian</p>
+									<p class="when-added when-added__google small__text grey__text__06"> 3 days ago</p>
+								</div>
+							</div>
+							<div class="post__block">
+								<div class="avatar__block google__avatar__block">
+									<img src="img/area.png" alt="">
+								</div>
+								<div class="post__info google__post__info">
+									<p class="post__text google__post__text small__text">
+										Lorem ipsum dolor sit amet, consetetur
+										sadipscing elitr, sed diam nonumy eirmod
+										tempor invidunt ut labore et dolore magna
+									</p>
+									<p class='small__text grey__text__06 google__pos__text'>The Guardian</p>
+									<p class="when-added when-added__google small__text grey__text__06"> 3 days ago</p>
+								</div>
+							</div>
+							<div class="post__block">
+								<div class="avatar__block google__avatar__block">
+									<img src="img/area.png" alt="">
+								</div>
+								<div class="post__info google__post__info">
+									<p class="post__text google__post__text small__text">
+										Lorem ipsum dolor sit amet, consetetur
+										sadipscing elitr, sed diam nonumy eirmod
+										tempor invidunt ut labore et dolore magna
+									</p>
+									<p class='small__text grey__text__06 google__pos__text'>The Guardian</p>
+									<p class="when-added when-added__google small__text grey__text__06"> 3 days ago</p>
+								</div>
+							</div>
+							<div class="post__block">
+								<div class="avatar__block google__avatar__block">
+									<img src="img/area.png" alt="">
+								</div>
+								<div class="post__info google__post__info">
+									<p class="post__text google__post__text small__text">
+										Lorem ipsum dolor sit amet, consetetur
+										sadipscing elitr, sed diam nonumy eirmod
+										tempor invidunt ut labore et dolore magna
+									</p>
+									<p class='small__text grey__text__06 google__pos__text'>The Guardian</p>
+									<p class="when-added when-added__google small__text grey__text__06"> 3 days ago</p>
+								</div>
+							</div>
+							<div class="post__block">
+								<div class="avatar__block google__avatar__block">
+									<img src="img/area.png" alt="">
+								</div>
+								<div class="post__info google__post__info">
+									<p class="post__text google__post__text small__text">
+										Lorem ipsum dolor sit amet, consetetur
+										sadipscing elitr, sed diam nonumy eirmod
+										tempor invidunt ut labore et dolore magna
+									</p>
+									<p class='small__text grey__text__06 google__pos__text'>The Guardian</p>
+									<p class="when-added when-added__google small__text grey__text__06"> 3 days ago</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
 			<!-- Chart scripts start -->
 			<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js'></script>
 			<script src='js/Chart.roundedBarCharts.min.js' ></script>
