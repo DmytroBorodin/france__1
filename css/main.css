@@ -39,6 +39,7 @@ body{
 	font-size: 1.1rem;
 	line-height: 1.3rem;
 	margin-top: 1rem;
+	margin-left: 1rem;
 	font-weight: normal;
 }
 .small__text {
@@ -58,8 +59,8 @@ body{
 	line-height: 2.8rem;
 }
 .big-size__text{
-	font-size: 40px;
-	line-height: 48px;
+	font-size: 4rem;
+	line-height: 4.8rem;
 }
 .block__bg{
 	background-color: #212840;
@@ -82,9 +83,11 @@ header .wrap{
 	height: 100%;
 	align-items: center;
 }
+/*
 header .sidebar {
 	display: none;
 }
+*/
 .left-side {
 	display: flex;
 	align-items: center;
@@ -448,6 +451,11 @@ header .sidebar {
 	height: 192.09px;
 	margin-bottom: 3.1rem;
 }
+.chart__divMini {
+	display: none;
+	height: 192.09px;
+	margin-bottom: 3.1rem;
+}
 #demography__chart{
 	width: 100%;
 }
@@ -584,13 +592,13 @@ header .sidebar {
 
 /* El-source */
 .el-source {
-	margin-top: 4rem;
+	margin-top: 5rem;
 }
 .el-source .section__chart__block {
 	width: 100%;
 }
 .co2-emmision__chart {
-	margin-top: 2rem;
+	margin-top: 5rem;
 }
 
 /* Methan */
@@ -733,6 +741,9 @@ header .sidebar {
 .GDP-and-GNI .chart__div {
 	height: 28.1rem;
 }
+.GDP-and-GNI .chart__divMini {
+    height: 28.1rem;
+}
 
 /* Business */
 .business {
@@ -855,6 +866,10 @@ header .sidebar {
 	    width: 100%;
 	    padding-left: 5rem;
 	}
+		.business .section__info__block:last-child {
+	    margin-right: 0;
+	    margin-bottom: 0;
+	}
 }
 @media screen and (max-width: 768px){
 	body{
@@ -934,6 +949,12 @@ header .sidebar {
 	    width: 45%;
 	    padding-right: 2rem;
 	}
+	.chart-header__block .left-side {
+	    width: 75%;
+	}
+	.chart-header__block .right-side {
+	    width: 25%;
+	}
 	header .sidebar {
 		display: block;
 		width: 100%;
@@ -945,7 +966,8 @@ header .sidebar {
 		justify-content: space-around;
 	}
 	.sidebar {
-		display: none;
+		display: block;
+		width: 4rem;
 	}
 	.button__block {
 	    width: 100%;
@@ -958,23 +980,38 @@ header .sidebar {
 	    border-radius: 0px 5px 5px 0px;
 	}
 	.main {
-		width: 100%;
-		margin-top: 50px;
+		width: calc(100% - 4rem);
 	}
 	.menu__block__active {
-		top: 16.7rem;
+		top: 10.7rem;
 		left: 0rem;
 	}
 	.inner-main {
-	    padding: 0 2.2rem;
+	    padding: 0 1rem;
+	}
+	.section__info__block {
+	    margin-bottom: 1rem;
+	}
+		.double-circle-chart__section .section__chart__block:last-child {
+	    margin-top: 1rem;
+	}
+	#sect1 {
+	    margin-bottom: 1rem;
+	    margin-right: 1rem;
 	}
 	#footer .right-sidebar {
 		padding: 0 2.2rem;
 	}
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 501px) {
 	.menu__block {
 		width: 100%;
+	}
+	.chart__div {
+		display: none;
+	}
+	.chart__divMini {
+		display: block;
 	}
 	.double-circle-chart__section .section__chart__block {
 	    width: 100%;
@@ -1032,6 +1069,7 @@ header .sidebar {
 	    top: 12.5%;
 	    left: 11.5rem;
 	}
+
 }
 
 

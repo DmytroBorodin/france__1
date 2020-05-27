@@ -52,11 +52,6 @@
 								</li>
 								<li class="menu__item">
 									<a href="" class="menu__link">
-										Countries
-									</a>
-								</li>
-								<li class="menu__item">
-									<a href="" class="menu__link">
 										FAQ
 									</a>
 								</li>
@@ -68,6 +63,7 @@
 						</div>
 					</div>
 				</div>
+<!-- 
 				<div class="sidebar">
 					<section class="buttons">
 						<div class="button__block">
@@ -87,6 +83,7 @@
 						</div>
 					</section>
 				</div>
+ -->
 			</header>
 			<!-- Header ends -->
 			<div class="wrap">
@@ -188,6 +185,9 @@
 										</div>
 										<div class="chart__div">
 											<canvas id="demography__chart"></canvas>
+										</div>
+										<div class="chart__divMini">
+											<canvas id="demography__chart-mini"></canvas>
 										</div>
 										<p class="small__text bottom__text grey__text__06">*Source: World Bank</p>
 									</div>
@@ -336,6 +336,9 @@
 										<div class="chart__div">
 											<canvas id="electricity__chart"></canvas>
 										</div>
+										<div class="chart__divMini">
+											<canvas id="electricity__chart-mini"></canvas>
+										</div>
 										<div class="bottom__chart__block">
 											<p class="small__text bottom__text grey__text__06">*Source: World Bank</p>
 											<div class="chart-legend__block">
@@ -434,6 +437,9 @@
 										<div class="chart__div">
 											<canvas id="el-source__chart"></canvas>
 										</div>
+										<div class="chart__divMini">
+											<canvas id="el-source__chart-mini"></canvas>
+										</div>
 										<p class="small__text bottom__text grey__text__06">*Source: World Bank</p>
 									</div>
 								</div>
@@ -478,6 +484,9 @@
 										</div>
 										<div class="chart__div">
 											<canvas id="el-consumption__chart"></canvas>
+										</div>
+										<div class="chart__divMini">
+											<canvas id="el-consumption__chart-mini"></canvas>
 										</div>
 										<p class="small__text bottom__text grey__text__06">*Source: World Bank</p>
 									</div>
@@ -535,6 +544,9 @@
 										</div>
 										<div class="chart__div">
 											<canvas id="GDP-and-GNI__chart"></canvas>
+										</div>
+										<div class="chart__divMini">
+											<canvas id="GDP-and-GNI__chart-mini"></canvas>
 										</div>
 										<p class="small__text bottom__text grey__text__06">*Source: World Bank</p>
 									</div>
@@ -645,6 +657,9 @@
 										<div class="chart__div">
 											<canvas id="gaz-emmisions__chart"></canvas>
 										</div>
+										<div class="chart__divMini">
+											<canvas id="gaz-emmisions__chart-mini"></canvas>
+										</div>
 										<p class="small__text bottom__text grey__text__06">*Source: World Bank</p>
 									</div>
 								</div>
@@ -727,6 +742,9 @@
 										</div>
 										<div class="chart__div">
 											<canvas id="co2__chart"></canvas>
+										</div>
+										<div class="chart__divMini">
+											<canvas id="co2__chart-mini"></canvas>
 										</div>
 										<p class="small__text bottom__text grey__text__06">*Source: World Bank</p>
 									</div>
@@ -1115,14 +1133,21 @@
 			<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js'></script>
 			<script src='js/Chart.roundedBarCharts.min.js' ></script>
 			<script src='js/DemographyChart.js'></script>
+			<script src='js/DemographyChartMini.js'></script>
 			<script src='js/ElectricityChart.js'></script>
-			<script src='js/ElectricityConsumptionChart.js' ></script>
+			<script src='js/ElectricityChartMini.js'></script>
+			<script src='js/ElectricityConsumptionChart.js'></script>
+			<script src='js/ElectricityConsumptionChartMini.js'></script>
 			<script src='js/GazEmmisionChart.js'></script>
+			<script src='js/GazEmmisionChartMini.js'></script>
 			<script src='js/ElSourceChart.js'></script>
+			<script src='js/ElSourceChartMini.js'></script>
 			<script src='js/Co2Chart.js'></script>
+			<script src='js/Co2ChartMini.js'></script>
 			<script src='js/RuralToUrbanChart.js'></script>
 			<script src='js/MaleToFemale.js'></script>
 			<script src='js/GpdAndGniChart.js'></script>
+			<script src='js/GpdAndGniChartMIni.js'></script>
 			<script src='js/MethanChart.js'></script>
 			<!-- Chart scripts end -->
 			<script src="js/main.js"></script>
