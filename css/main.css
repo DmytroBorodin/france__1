@@ -1003,6 +1003,9 @@ header .sidebar {
 	#footer .right-sidebar {
 		padding: 0 2.2rem;
 	}
+	.section__chart__block {
+	    padding: 0.6rem 1.6rem 1rem;
+	}
 }
 @media screen and (max-width: 501px) {
 	.menu__block {
@@ -1016,8 +1019,9 @@ header .sidebar {
 	}
 	.double-circle-chart__section .section__chart__block {
 	    width: 100%;
-	    padding-left: 3.2rem;
-	    padding-right: 3.2rem;
+	    padding-left: 1.6rem;
+	    padding-right: 1.6rem;
+	    justify-content: space-between;
 	}
 	.inner-chart__block {
 	    width: 15rem;
@@ -1070,7 +1074,16 @@ header .sidebar {
 	    top: 12.5%;
 	    left: 11.5rem;
 	}
-
+	.solar__block {
+		height: 70.42%;
+	}
+	}
+	.main-legend__block {
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: space-between;
+	    width: auto;
+	}
 }
 
 
