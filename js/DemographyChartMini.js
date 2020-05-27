@@ -1,40 +1,35 @@
-var ctx = document.getElementById('GDP-and-GNI__chart').getContext("2d");
-    var tenthGradient = ctx.createLinearGradient(0, 0, 0, 400);
-    var eleventhGradient = ctx.createLinearGradient(0, 0, 0, 400);
-tenthGradient.addColorStop(0, '#37CC93');
-eleventhGradient.addColorStop(0, '#2772FF');
-var gpdAndGniChart = new Chart(ctx, {
-    type: 'bar',
+var ctx = document.getElementById('demography__chart-mini').getContext("2d");
+    var gradientMini = ctx.createLinearGradient(0, 0, 0, 400);
+gradientMini.addColorStop(0, '#8888EA');
+gradientMini.addColorStop(0.3, 'rgba(66, 118, 196, 0.15)');
+gradientMini.addColorStop(0.5, 'rgba(66, 118, 196, 0.05)');
+gradientMini.addColorStop(0.7, 'rgba(66, 118, 196, 0)');
+var demographyChartMini = new Chart(ctx, {
+    type: 'line',
     data: {
         labels: ['1910', '1920', '1930', '1940', '1950', '1960', '1990', '2000', '',],
-        datasets: [
-        {
-            barPercentage: 0.9,
-            categoryPercentage: 0.4,
-            data:  [1.5, 2, 1.9, 2.3, 2.6, 3, 3.1, 3.4, 3.5],
-            backgroundColor: eleventhGradient,
-            borderWidth: 1},
-        {
-            barPercentage: 0.9,
-            categoryPercentage: 0.4,
-            data: [3, 4, 3.8, 4.6, 5.2, 6, 6.2, 6.8, 6.9 ],
-            backgroundColor: tenthGradient,
-            borderWidth: 1
+        datasets: [{
+            label: '# of Votes',
+            data: [0, 3, 4, 3.8, 4.6, 5.2, 6, 6.2, 6.8, ],
+            backgroundColor: gradientMini,
+            borderColor: [
+                '#8888EA',
+
+            ],
+            borderWidth: 5
         },
         ]
     },
     options: {
-        cornerRadius: 20,
         scales: {
            xAxes: [{
-
                gridLines: {
                   drawOnChartArea: false,
                   color: 'rgba(255, 255, 255, 0.2)',
                   zeroLineColor: 'rgba(255, 255, 255, 0.2)',
                },
                ticks: {
-                    fontSize: 16,
+                    fontSize: 8,
                     fontFamily: 'Lato',
                     fontColor: "#fff",
                }
@@ -46,12 +41,11 @@ var gpdAndGniChart = new Chart(ctx, {
                   zeroLineColor: 'rgba(255, 255, 255, 0.2)',
                },
                ticks: {
-                    fontSize: 16,
+                    fontSize: 8,
                     fontFamily: 'Lato',
                     fontColor: "#fff",
-                    beginAtZero: true,
                }
-            }],
+            }]
         },
         maintainAspectRatio: false,
         elements: {
@@ -65,4 +59,3 @@ var gpdAndGniChart = new Chart(ctx, {
         },
     }
 });
-
