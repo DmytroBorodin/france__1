@@ -943,6 +943,15 @@ header .sidebar {
     	width: 100%;
 	    padding-right: 2rem;
 	}
+	.header__time__block {
+	    top: 3.6rem;
+	}
+	.header__title__block {
+	    margin-top: 3.6rem;
+	}
+	.subtitle {
+	    margin-top: 0.5rem;
+	}
 	.right-sidebar {
 		display: none;
 	}
