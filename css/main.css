@@ -939,6 +939,9 @@ header .sidebar {
 	.header__img {
 		display: none;
 	}
+	.header__section .container {
+		padding-bottom: 3.6rem;
+	}
 	.header__info__block {
     	width: 100%;
 	    padding-right: 2rem;
